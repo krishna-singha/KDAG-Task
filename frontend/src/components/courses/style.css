@@ -1,0 +1,143 @@
+.course-heading {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.course-heading h1 {
+    text-align: center;
+}
+.course-header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.578);
+}
+.modal-content {
+    background-color: rgba(255, 0, 0, 0.692);
+    border-radius: 6px;
+    width: 40%;
+    padding: 2rem 1.8rem;
+    position: relative;
+}
+.modal-content h2 {
+    text-align: center;
+    font-weight: 500;
+}
+.modal-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+
+}
+.modal-content .close {
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 2px;
+    right: 10px;
+}
+.modal-links a {
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    background: #000;
+    border-radius: 6px;
+}
+.modal-links a.active {
+    color: red;
+    background-color: white;
+}
+
+.box {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.141);
+    padding: 2rem;
+    border-radius: 6px;
+}
+.box>div {
+    padding: 1rem;
+
+}
+.box h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: red;
+}
+.box h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: rgb(35, 142, 242);
+}
+.box h4 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.box p {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.731);
+    line-height: 2.2rem;
+}
+
+.topics-covered>div {
+    background-color: rgba(119, 119, 119, 0.22);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+}
+
+.topics-covered>div:hover {
+    background-color: rgba(119, 119, 119, 0.322);
+}
+.inside-box>div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+.inside-box span {
+    font-size: 1.3rem;
+    color: rgb(47, 198, 236);
+    cursor: pointer;
+}
+.inside-box span:hover {
+    color: rgb(7, 152, 188);
+}
+
+.btns {
+    width: 100%;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.btns a.prev {
+    position: absolute;
+    left: 0;
+}
+.btns a.next {
+    position: absolute;
+    right: 0;
+}
