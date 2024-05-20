@@ -24,7 +24,7 @@ const dataCourse = () => {
 
     useEffect(() => {
         const handleData = async () => {
-            const getData = await axios.get(`${BACKEND_URL}/api/${courseFormat}/${id}`);
+            const getData = await axios.get(`${BACKEND_URL}/api/data/${courseFormat}/${id}`);
             setCourseData(getData.data.courseData);
             setMaxLength(getData.data.maxLength);
         }

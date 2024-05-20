@@ -5,8 +5,8 @@ const { handleGetDayData, handleGetWeekData } = require('../controllers/urls');
 const router = express.Router();
 
 // Routes
-router.get('/day/:id', handleGetDayData);
-router.get('/week/:id', handleGetWeekData);
+router.get('/data/day/:id', handleGetDayData);
+router.get('/data/week/:id', handleGetWeekData);
 
 // Exporting the router
 module.exports = router;

@@ -1,5 +1,5 @@
-const dayModel = require('../models/day.model');
-const weekModel = require('../models/week.model');
+const dayModel = require('../database/models/day.model');
+const weekModel = require('../database/models/week.model');
 
 const handleGetDayData = async (req, res) => {
     try {

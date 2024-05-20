@@ -3,7 +3,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
 const cors = require('cors');
-const apiRouter = require('./database/routes/api');
+const staticRouter = require('./routes/static');
+const apiRouter = require('./routes/api');
 
 const port = process.env.PORT || 3000;
 const MONGODB_URL = process.env.MONGODB_URL;
@@ -27,6 +28,7 @@ async function connectToMongoDB() {
 connectToMongoDB();
 
 // Routes
+app.use('/', staticRouter);
 app.use('/api', apiRouter);
 
 
