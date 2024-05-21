@@ -77,12 +77,13 @@ const dataCourse = () => {
                                     onClick={() => toggleModal()}>
                                     &times;
                                 </span>
-                                <h2>Select {courseFormat}:</h2>
+                                <h2 className="heading3">Select {courseFormat}:</h2>
                                 <div className="modal-links">
                                     {[...Array(maxLength)].map((_, index) => (
                                         <NavLink
                                             key={index}
                                             to={`/courses/data/${courseFormat}/${index + 1}`}
+                                            className={"btnText2"}
                                             onClick={() => {
                                                 toggleModal();
                                                 goToTop();

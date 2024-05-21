@@ -1,6 +1,6 @@
 .modal {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     position: fixed;
     z-index: 1;
     left: 0;
@@ -9,13 +9,14 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.578);
+    padding: 5rem 1rem;
 }
 
 .modal-content {
     background-color: rgba(255, 0, 0, 0.692);
     border-radius: 6px;
-    width: 40%;
-    padding: 2rem 1.8rem;
+    max-width: 40rem;
+    padding: 2rem;
     position: relative;
 }
 
@@ -30,7 +31,6 @@
     justify-content: center;
     gap: 1rem;
     margin-top: 1rem;
-
 }
 
 .modal-content .close {
@@ -142,6 +142,7 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    line-height: 1.7rem;
 }
 
 .box p {
@@ -210,6 +211,12 @@
     }
 }
 @media screen and (max-width: 555px) {
+    .modal-content {
+        padding: 1rem;
+    }
+    .modal-links {
+        gap: 0.5rem;
+    }
     .box {
         padding: 0rem;
         padding-bottom: 2rem;
