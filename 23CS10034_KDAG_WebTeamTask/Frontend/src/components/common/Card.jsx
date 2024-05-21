@@ -11,11 +11,11 @@ const Card = ({ imgLink, title, para }) => {
     return (
         <div className='course-card'>
             <img src={imgLink} alt={title} />
-            <h2>{title}</h2>
-            <p>{para}</p>
+            <h2 className='heading3'>{title}</h2>
+            <p className='paragraph2'>{para}</p>
             <NavLink
                 to="/courses/data/week/1"
-                className="btn"
+                className="btn btnText"
                 onClick={() => goToTop()}>
                 Start Course
             </NavLink>

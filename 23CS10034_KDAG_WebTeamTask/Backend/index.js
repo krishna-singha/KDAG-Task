@@ -7,8 +7,8 @@ const cors = require('cors');
 const app = express();
 
 // Import routes
-const staticRouter = require('./routes/static');
-const apiRouter = require('./routes/api');
+const staticRouter = require('./database/routes/static');
+const apiRouter = require('./database/routes/api');
 
 // Constants
 const port = process.env.PORT || 3000;

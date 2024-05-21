@@ -2,9 +2,73 @@
     cursor: pointer;
     border-color: transparent;
     padding: 0.5rem 1rem;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     border-radius: 7px;
     color: black;
     background-color: white;
     text-align: center;
+}
+.heading {
+    font-size: 3.5rem;
+}
+.heading2 {
+    font-size: 1.8rem;
+}
+.heading3 {
+    font-size: 1.5rem;
+}
+.paragraph,
+.btnText {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+.paragraph2 {
+    font-size: 1.1rem;
+}
+.btnText2 {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 736px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .heading2 {
+        font-size: 1.6rem;
+    }
+    .heading3 {
+        font-size: 1.2rem;
+    }
+    .paragraph,
+    .btnText {
+        font-size: 1rem;
+    }
+    .paragraph2 {
+        font-size: 1rem;
+    }
+    .btnText2 {
+        font-size: 0.9rem;
+    }
+    
+}
+@media screen and (max-width: 505px) {
+    .hero h1 {
+        font-size: 1.7rem;
+    }
+    .heading2 {
+        font-size: 1.3rem;
+    }
+    .heading3 {
+        font-size: 1rem;
+    }
+    .paragraph,
+    .btnText  {
+        font-size: 0.8rem;
+    }
+    .paragraph2 {
+        font-size: 0.9rem;
+    }
+    .btnText2 {
+        font-size: 0.8rem;
+    }
 }

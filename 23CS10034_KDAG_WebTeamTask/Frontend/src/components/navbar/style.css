@@ -1,5 +1,6 @@
 header {
     width: 100vw;
+    padding: 0 1.5rem;
     border-bottom: 1px solid #e0e0e090;
     position: sticky;
     top: 0;
@@ -12,7 +13,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    width: 1280px;
+    max-width: 1280px;
     margin: auto;
     padding: 1rem 0;
 }
@@ -36,12 +37,75 @@ div.nav-links {
 div.nav-links a {
     color: grey;
     text-decoration: none;
-    padding: 0 1rem;    
+    padding: 0 1rem;
     border-bottom: 2px solid grey;
     padding: 0.5rem 1rem;
     border-radius: 6px;
 }
+
 div.nav-links a.active {
     border-bottom: 2px solid red;
     color: white;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+@media screen and (max-width: 540px) {
+    header {
+        padding: 0 1rem;
+    }
+
+    nav div.nav-logo {
+        width: 12rem;
+    }
+
+    nav .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hamburger i {
+        font-size: 1.4rem;
+        cursor: pointer;
+        z-index: 111;
+    }
+
+    .hamburger i.fa-xmark {
+        font-size: 1.65rem;
+    }
+
+    nav .nav-links.active {
+        width: 100%;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 8rem 0;
+        background-color: #00274dbb;
+        z-index: 110;
+    }
+
+    div.nav-links a.active {
+        border: none;
+        color: red;
+    }
+    div.nav-links a {
+        width: 40%;
+        color: black;
+        border-bottom: none;
+        text-align: center;
+        font-size: 1.2rem;
+        background: rgba(255, 255, 255, 0.812);
+    }
 }
