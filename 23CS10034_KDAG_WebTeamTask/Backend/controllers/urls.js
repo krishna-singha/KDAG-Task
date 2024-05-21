@@ -1,6 +1,7 @@
 const dayModel = require('../database/models/day.model');
 const weekModel = require('../database/models/week.model');
 
+// Function to handle GET request for day data
 const handleGetDayData = async (req, res) => {
     try {
         const days = await dayModel.findOne({ day: req.params.id });
@@ -17,6 +18,8 @@ const handleGetDayData = async (req, res) => {
         res.status(500).send({ message: 'Internal server error' });
     }
 }
+
+// Function to handle GET request for week data
 const handleGetWeekData = async (req, res) => {
     try {
         const weeks = await weekModel.findOne({ week: req.params.id });
@@ -34,6 +37,7 @@ const handleGetWeekData = async (req, res) => {
     }
 }
 
+// Exporting the functions
 module.exports = {
     handleGetDayData,
     handleGetWeekData,

@@ -13,5 +13,5 @@ const weekSchema = new mongoose.Schema({
 // Creating week Model
 const weekModel = mongoose.model('week-contents', weekSchema);
 
-// Exporting the day model
+// Exporting the week model
 module.exports = weekModel;
