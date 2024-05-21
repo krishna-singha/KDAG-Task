@@ -117,6 +117,12 @@ footer {
 }
 
 @media screen and (max-width: 666px) {
+    .footer-left .footer-para p {
+        font-size: 0.9rem;
+    }
+    .footer-content h3 {
+        font-size: 1rem;
+    }
     .footer-right {
         align-items: start;
     }
@@ -125,5 +131,11 @@ footer {
     }
     .footer-links a {
         font-size: 0.8rem;
+    }
+    .footer-middle ul li a {
+        font-size: 0.8rem;
+    }
+    .social-icons a i {
+        font-size: 20px;
     }
 }

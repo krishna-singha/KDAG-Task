@@ -12,7 +12,6 @@ const Navbar = () => {
 
     const goToTop = () => {
         window.scrollTo(0, 0);
-        toggleHamburger();
     }
 
     return (
@@ -24,10 +23,18 @@ const Navbar = () => {
                             <img src={kdagLogo} alt="" />
                         </NavLink>
                     </div>
-                    {/* <div className={`overlay ${menuOpen ? "" : "active"}`}>djugwd</div> */}
+
                     <div className={`nav-links ${menuOpen ? "" : "active"}`}>
-                        <NavLink to="/" onClick={() => goToTop()}>Home</NavLink>
-                        <NavLink to="/courses" onClick={() => goToTop()}>Courses</NavLink>
+                        <NavLink to="/"
+                            onClick={() => {
+                                goToTop()
+                                toggleHamburger();
+                            }}>Home</NavLink>
+                        <NavLink to="/courses"
+                            onClick={() => {
+                                goToTop()
+                                toggleHamburger();
+                            }}>Courses</NavLink>
                     </div>
                     <div className="hamburger">
                         <i className={`fa-solid ${menuOpen ? "fa-bars-staggered" : "fa-xmark"}`} onClick={() => toggleHamburger()}></i>

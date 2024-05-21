@@ -173,7 +173,6 @@
 }
 
 .inside-box span {
-    /* font-size: 1.3rem; */
     color: rgb(47, 198, 236);
     cursor: pointer;
 }
@@ -184,11 +183,7 @@
 
 .btns {
     width: 100%;
-    /* padding: 2rem 0; */
-    /* position: absolute;
-    bottom: 0; */
     position: relative;
-    /* margin-bottom: 2rem; */
 }
 
 .btns a.prev {
@@ -204,7 +199,11 @@
 @media screen and (max-width: 900px) {
     .box {
         padding: 1rem;
+        padding-top: 2rem;
         padding-bottom: 2rem;
+    }
+    .box h2 {
+        margin-bottom: 1rem;
     }
     .topics-covered>div {
         padding: 1.5rem 1rem;
@@ -219,6 +218,7 @@
     }
     .box {
         padding: 0rem;
+        padding-top: 2rem;
         padding-bottom: 2rem;
     }
     .btns a.prev {
