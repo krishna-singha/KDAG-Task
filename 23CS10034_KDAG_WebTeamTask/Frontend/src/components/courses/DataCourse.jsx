@@ -32,7 +32,11 @@ const dataCourse = () => {
     }, [id, courseFormat]);
 
     if (isNaN(id) || id < 1 || id > maxLength) {
-        return <div>Invalid Day number</div>;
+        return (
+            <div className="invalid">
+                <h2>Invalid {courseFormat} number</h2>
+            </div>
+        );
     }
 
     const capitalFirstChar = (char) => {
@@ -140,7 +144,7 @@ const dataCourse = () => {
                                 <div key={ind}>
                                     <i className="fa-solid fa-caret-right"></i>
                                     <p className="paragraph">{resource} <span>click here</span></p>
-                                    
+
                                 </div>
                             ))}
                         </div>
