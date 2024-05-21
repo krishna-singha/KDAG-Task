@@ -1,0 +1,652 @@
+[{
+  "_id": {
+    "$oid": "664b107c99135b56146e5e58"
+  },
+  "day": 1,
+  "title": "Overview of Data Analytics",
+  "topics": [
+    {
+      "title": "Introduction to Data Analytics: Definition, importance, and applications.",
+      "content": "Data analytics involves leveraging large datasets to uncover patterns, correlations, and insights that inform decision-making and drive business strategies. By transforming raw data into actionable insights, data analytics empowers organizations across various industries to make informed decisions, optimize processes, and gain a competitive edge in the market. Its applications span finance, healthcare, retail, marketing, manufacturing, and more, supporting functions such as fraud detection, patient monitoring, demand forecasting, and predictive maintenance. Through data analytics, businesses can unlock the value of their data, drive innovation, and achieve their strategic goals effectively."
+    }
+  ],
+  "reading": [
+    "\"Data Science for Business\" by Foster Provost and Tom Fawcett (Chapters 1-2).",
+    "\"Python for Data Analysis\" by Wes McKinney (Chapter 2)."
+  ],
+  "assignments": [
+    "Summarize the key concepts discussed in the readings.",
+    "Research and present on a significant contribution of KDAG to the field of data analytics."
+  ],
+  "resources": [
+    "Online tutorials on basic data analysis concepts: Data Analysis Basics Tutorial"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664b10a299135b56146e5e59"
+  },
+  "day": 2,
+  "title": "Understanding Data",
+  "topics": [
+    {
+      "title": "Understanding data: Types of data (structured, unstructured, semi-structured), data sources, and formats.",
+      "content": "Data involves recognizing its diverse types, sources, and formats. Structured data, organized with a clear schema, resides in databases and spreadsheets, while unstructured data, lacking a predefined format, includes text-heavy sources like social media posts and multimedia files. Semi-structured data, falling between these two, exhibits some organization but not to the extent of structured data, often found in formats like JSON and XML. Data can originate from internal systems, external sources, and third-party providers, with formats ranging from text-based CSV and JSON to binary formats like images and videos. This comprehension is crucial for effective data management, processing, and analysis, facilitating valuable insights and informed decision-making."
+    }
+  ],
+  "reading": [
+    "\"Python for Data Analysis\" by Wes McKinney (Chapter 2).",
+    "Online resources on data types and formats."
+  ],
+  "assignments": [
+    "Identify and describe different types of data (e.g., numerical, categorical) in a given dataset.",
+    "Explore different data sources and formats (e.g., CSV, JSON, databases) and their advantages/disadvantages."
+  ],
+  "resources": [
+    "W3Schools tutorials on data types and formats: Data Types Tutorial"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664b10bf99135b56146e5e5a"
+  },
+  "day": 3,
+  "title": "Data Preprocessing",
+  "topics": [
+    {
+      "title": "Data Preprocessing: Cleaning, transforming, and organizing data for analysis.",
+      "content": "Data preprocessing involves several essential steps, including cleaning, transforming, and organizing data to prepare it for analysis. Cleaning involves identifying and rectifying errors, inconsistencies, and missing values in the dataset to ensure data integrity. Transformation encompasses converting data into a suitable format, scaling features, and encoding categorical variables for analysis. Organizing data involves structuring and formatting it in a way that facilitates efficient analysis, such as arranging it into tables or data frames and partitioning it into training and testing sets for machine learning tasks. Effective data preprocessing is crucial for improving the quality of analysis results, enhancing model performance, and deriving meaningful insights from the data."
+    }
+  ],
+  "reading": [
+    "\"Python for Data Analysis\" by Wes McKinney (Chapter 3).",
+    "Online tutorials on data preprocessing techniques."
+  ],
+  "assignments": [
+    "Clean and preprocess a sample dataset by handling missing values, outliers, and inconsistencies.",
+    "Transform the preprocessed data into a suitable format for analysis (e.g., tidy data format)."
+  ],
+  "resources": [
+    "Pandas documentation for data cleaning and manipulation: Pandas Documentation"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664bae7199135b56146e5e69"
+  },
+  "day": 4,
+  "title": "Introduction to EDA",
+  "topics": [
+    {
+      "title": "Exploratory Data Analysis (EDA) and its importance in understanding data.",
+      "content": "Exploratory Data Analysis (EDA) is a fundamental process in data science and analytics, essential for gaining a deep understanding of datasets. It involves various techniques to summarize the main characteristics of the data, often through visualizations such as histograms, scatter plots, box plots, and bar charts. EDA helps in identifying patterns, trends, and relationships within the data, which might not be immediately apparent. It also plays a critical role in detecting anomalies, outliers, and missing values that could affect the analysis. Moreover, EDA facilitates the validation of assumptions required for statistical modeling and hypothesis testing. By providing a clear, visual representation of the data, EDA aids in the selection of appropriate analytical methods and models, ensuring that subsequent analyses are accurate and meaningful. Ultimately, EDA lays the groundwork for making data-driven decisions, enhancing the reliability and validity of the conclusions drawn from the data."
+    }
+  ],
+  "reading": [
+    "\"Python for Data Analysis\" by Wes McKinney (Chapter 4).",
+    "Online tutorials on exploratory data analysis techniques."
+  ],
+  "assignments": [
+    "Perform descriptive statistics on a given dataset, including measures of central tendency, dispersion, and distribution.",
+    "Visualize the dataset using histograms, box plots, and scatter plots to identify patterns and relationships."
+  ],
+  "resources": [
+    "Seaborn documentation for data visualization: Seaborn Documentation"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664bae7b99135b56146e5e6a"
+  },
+  "day": 5,
+  "title": "Descriptive Statistics",
+  "topics": [
+    {
+      "title": "Descriptive Statistics: Measures of central tendency, dispersion, and distribution.",
+      "content": "Descriptive statistics provide a comprehensive summary of a dataset through various measures that capture its central tendency, dispersion, and distribution. Measures of central tendency, such as the mean, median, and mode, indicate the central or typical value within the dataset. Dispersion measures, including range, variance, and standard deviation, reveal the extent to which data points spread out from the central value, indicating the variability within the dataset. Additionally, the shape and spread of the data distribution can be described using skewness and kurtosis, which highlight asymmetry and the presence of outliers. By employing these descriptive statistics, one can effectively summarize and understand the key characteristics of the data, forming the basis for further statistical analysis and decision-making."
+    }
+  ],
+  "reading": [
+    "\"Practical Statistics for Data Scientists\" by Andrew Bruce and Peter Bruce (Chapters 1-2).",
+    "Online resources on descriptive statistics."
+  ],
+  "assignments": [
+    "Calculate and interpret various descriptive statistics (mean, median, standard deviation, etc.) for a given dataset.",
+    "Explore the distribution of data using visualizations and summarize findings."
+  ],
+  "resources": [
+    "Khan Academy tutorials on descriptive statistics: Descriptive Statistics Tutorial"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664bae8399135b56146e5e6b"
+  },
+  "day": 6,
+  "title": "Data Visualization Techniques",
+  "topics": [
+    {
+      "title": "Data Visualization Techniques: Histograms, box plots, scatter plots, etc.",
+      "content": "Data visualization techniques are essential tools in data analysis, providing a clear and intuitive way to understand complex datasets. Histograms are used to display the distribution of a single variable by showing the frequency of data points within specified ranges. They help identify the shape, central tendency, and spread of the data. Box plots, or whisker plots, offer a summary of the data’s distribution by highlighting the median, quartiles, and potential outliers, making it easy to compare distributions across different categories. Scatter plots are invaluable for examining the relationship between two continuous variables, revealing patterns, correlations, and trends. Other techniques include bar charts for categorical data, line graphs for time series data, and heat maps for showing data density. Together, these visualization methods transform raw data into insightful, easy-to-interpret graphics that facilitate deeper analysis and better decision-making."
+    }
+  ],
+  "reading": [
+    "\"Python Data Science Handbook\" by Jake VanderPlas (Chapter 4).",
+    "Online tutorials on data visualization libraries (Matplotlib, Seaborn)."
+  ],
+  "assignments": [
+    "Create visualizations (e.g., histograms, box plots) for different variables in a dataset.",
+    "Compare and contrast the effectiveness of different visualization techniques in conveying insights."
+  ],
+  "resources": [
+    "Matplotlib documentation for plotting: Matplotlib Documentation."
+  ]
+},
+{
+  "_id": {
+    "$oid": "664bae8b99135b56146e5e6c"
+  },
+  "day": 7,
+  "title": "Introduction to Statistical Analysis",
+  "topics": [
+    {
+      "title": "Introduction to Statistical Analysis: Population vs. sample, variability, and distributions.",
+      "content": "Statistical analysis involves understanding key concepts such as population vs. sample, variability, and distributions. A population refers to the entire set of individuals, items, or data points under consideration, while a sample is a subset of the population selected for analysis. Variability measures the extent to which data points differ from each other, with common measures including variance and standard deviation. Distributions describe the way data is spread out or distributed, with common types including normal, binomial, and Poisson distributions. Statistical analysis uses these concepts to draw inferences, make predictions, and derive insights from data, whether it's a representative sample or the entire population."
+    }
+  ],
+  "reading": [
+    "\"Statistics for Business and Economics\" by Paul Newbold et al. (Chapters 1-3).",
+    "Online tutorials on basic statistical concepts."
+  ],
+  "assignments": [
+    "Differentiate between population and sample data and calculate measures of variability.",
+    "Explore different probability distributions and their applications in real-world scenarios."
+  ],
+  "resources": [
+    "Khan Academy tutorials on statistics: Statistics Tutorial"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664bae9499135b56146e5e6d"
+  },
+  "day": 8,
+  "title": "Probability Distributions",
+  "topics": [
+    {
+      "title": "Probability Distributions: Normal, binomial, Poisson distributions and their applications.",
+      "content": "Probability distributions, including the normal, binomial, and Poisson distributions, are essential tools in statistics with diverse applications. The normal distribution, characterized by a bell-shaped curve, models continuous variables like heights and IQ scores. Binomial distributions depict the probability of successes in a fixed number of trials, useful in quality control and genetics. Poisson distributions, on the other hand, estimate event occurrences over time or space intervals, applied in queuing theory and reliability analysis. Understanding these distributions aids in accurately modeling and analyzing real-world phenomena, enabling informed decision-making across various domains."
+    }
+  ],
+  "reading": [
+    "\"Probability and Statistics for Engineering and the Sciences\" by Jay L. Devore (Chapters 4-6).",
+    "Online resources on probability distributions."
+  ],
+  "assignments": [
+    "Calculate probabilities using different probability distributions and interpret the results.",
+    "Apply probability distributions to solve practical problems (e.g., quality control, reliability analysis)."
+  ],
+  "resources": [
+    "Wolfram Alpha resources on probability distributions: Probability Distribution Resources"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664bae9b99135b56146e5e6e"
+  },
+  "day": 9,
+  "title": "Hypothesis Testing",
+  "topics": [
+    {
+      "title": "Hypothesis Testing: Null and alternative hypotheses, p-values, significance levels.",
+      "content": "Hypothesis testing is a fundamental statistical technique used to make inferences about population parameters based on sample data. It involves formulating null and alternative hypotheses, where the null hypothesis (H0) represents the status quo or no effect, while the alternative hypothesis (H1) represents the opposite or the effect of interest. The p-value is a measure of the strength of evidence against the null hypothesis, indicating the probability of obtaining the observed results (or more extreme) if the null hypothesis were true. A significance level, often denoted as α, is chosen as a threshold to determine whether the observed results are statistically significant. If the p-value is less than the significance level, the null hypothesis is rejected in favor of the alternative hypothesis, suggesting that the observed results are unlikely to occur by chance alone. Hypothesis testing provides a rigorous framework for making decisions based on empirical evidence, guiding researchers and practitioners in drawing meaningful conclusions from data analysis."
+    }
+  ],
+  "reading": [
+    "\"Introduction to the Practice of Statistics\" by David S. Moore et al. (Chapters 8-10).",
+    "Online tutorials on hypothesis testing."
+  ],
+  "assignments": [
+    "Formulate null and alternative hypotheses for given research questions and conduct hypothesis tests.",
+    "Interpret p-values and make decisions based on significance levels."
+  ],
+  "resources": [
+    "Stat Trek tutorials on hypothesis testing: Hypothesis Testing Tutorial"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664baea499135b56146e5e6f"
+  },
+  "day": 10,
+  "title": "Introduction to Machine Learning (ML)",
+  "topics": [
+    {
+      "title": "Introduction to Machine Learning (ML) and its applications in data analytics.",
+      "content": "Machine Learning (ML) entails understanding a branch of artificial intelligence (AI) that enables systems to learn from data and improve their performance over time without being explicitly programmed. ML algorithms identify patterns in data, make predictions, and automate decision-making tasks. ML finds diverse applications in data analytics, including predictive modeling, classification, clustering, and anomaly detection. In predictive modeling, ML algorithms forecast future outcomes based on historical data, aiding in risk assessment, sales forecasting, and demand prediction. Classification algorithms categorize data into predefined classes, facilitating spam detection, image recognition, and sentiment analysis. Clustering algorithms group similar data points together, useful for customer segmentation, market analysis, and recommendation systems. Anomaly detection algorithms identify unusual patterns or outliers in data, crucial for fraud detection, network security, and fault diagnosis. ML revolutionizes data analytics by extracting actionable insights from large datasets, enhancing decision-making processes, and driving innovation across various industries."
+    }
+  ],
+  "reading": [
+    "\"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow\" by Aurélien Géron (Chapters 1-3).",
+    "Online tutorials on machine learning basics."
+  ],
+  "assignments": [
+    "Define key concepts in machine learning (supervised learning, unsupervised learning) and provide examples.",
+    "Research and summarize different applications of machine learning in various industries."
+  ],
+  "resources": [
+    "Google Developers Machine Learning Crash Course: ML Crash Course"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664baf3499135b56146e5e70"
+  },
+  "day": 11,
+  "title": "Supervised vs. Unsupervised Learning",
+  "topics": [
+    {
+      "title": "Supervised vs. Unsupervised Learning: Concepts and examples.",
+      "content": "Supervised and unsupervised learning represent two fundamental approaches in machine learning, each with distinct concepts and applications. In supervised learning, algorithms are trained on labeled data, where each input is paired with a corresponding output label. The primary objective is to learn a mapping function from inputs to outputs, allowing the algorithm to make predictions on unseen data. Common examples of supervised learning include classification tasks, where the algorithm predicts a categorical label for each input, such as spam detection in emails or sentiment analysis in social media posts. Regression tasks, on the other hand, involve predicting a continuous value for each input, such as house price prediction or stock price forecasting based on historical data.\n                \n                In contrast, unsupervised learning operates on unlabeled data, where the algorithm seeks to discover hidden patterns or structures without explicit guidance. Clustering algorithms, for instance, group similar data points together based on their features, facilitating tasks like customer segmentation for targeted marketing or image segmentation in computer vision. Dimensionality reduction techniques, such as principal component analysis (PCA), aim to reduce the number of features or variables in the data while preserving essential information, aiding in visualization and data compression. Unsupervised learning techniques are instrumental in exploratory analysis and data mining tasks, enabling researchers and practitioners to uncover insights and derive value from unstructured or unlabeled datasets."
+    }
+  ],
+  "reading": [
+    "\"Pattern Recognition and Machine Learning\" by Christopher M. Bishop (Chapters 1-2).",
+    "Online resources on supervised and unsupervised learning."
+  ],
+  "assignments": [
+    "Differentiate between supervised and unsupervised learning algorithms and provide real-world examples of each.",
+    "Explore datasets and determine whether supervised or unsupervised learning would be more appropriate for analysis."
+  ],
+  "resources": [
+    "Towards Data Science articles on supervised and unsupervised learning: Supervised vs. Unsupervised Learning"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664baf3a99135b56146e5e71"
+  },
+  "day": 12,
+  "title": "Model Evaluation Metrics",
+  "topics": [
+    {
+      "title": "Model Evaluation Metrics: Accuracy, precision, recall, F1-score, ROC curves.",
+      "content": "Model evaluation metrics play a crucial role in assessing the performance of machine learning models. Accuracy, measuring the proportion of correctly classified instances, provides a basic overview of model performance. Precision focuses on the correctness of positive predictions, while recall emphasizes the model's ability to capture all positive instances. The F1-score balances precision and recall, offering a comprehensive measure of model performance, particularly in imbalanced datasets. ROC curves visualize the trade-off between true positive and false positive rates, aiding in threshold selection. Together, these metrics enable analysts to gauge a model's effectiveness in generalizing to unseen data and guide decision-making in model selection and optimization."
+    }
+  ],
+  "reading": [
+    "\"Python Machine Learning\" by Sebastian Raschka and Vahid Mirjalili (Chapter 3).",
+    "Online tutorials on model evaluation metrics."
+  ],
+  "assignments": [
+    "Calculate and interpret evaluation metrics (accuracy, precision, recall, F1-score) for classification models.",
+    "Plot ROC curves and calculate AUC for binary classification problems."
+  ],
+  "resources": [
+    "Scikit-learn documentation on model evaluation: Model Evaluation Metrics"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664baf4099135b56146e5e72"
+  },
+  "day": 13,
+  "title": "Time Series Analysis and Forecasting Techniques",
+  "topics": [
+    {
+      "title": "Time Series Analysis and Forecasting Techniques: Moving averages, exponential smoothing, ARIMA models.",
+      "content": "Time series analysis and forecasting techniques encompass methods such as moving averages, exponential smoothing, and ARIMA models. Moving averages involve smoothing out data fluctuations by calculating the average of neighboring data points, aiding in trend identification. Exponential smoothing assigns exponentially decreasing weights to past observations, providing responsive forecasts that prioritize recent data. ARIMA (AutoRegressive Integrated Moving Average) models combine autoregressive, moving average, and differencing components to capture temporal dynamics, making them suitable for forecasting trends, seasonality, and autocorrelation in time series data. These techniques are pivotal in various fields, including finance, economics, and meteorology, enabling analysts to make informed decisions based on future projections."
+    }
+  ],
+  "reading": [
+    "\"Forecasting: Principles and Practice\" by Rob J Hyndman and George Athanasopoulos (Chapters 1-4).",
+    "Online resources on time series analysis."
+  ],
+  "assignments": [
+    "Perform time series decomposition and forecast future values using techniques such as exponential smoothing and ARIMA models.",
+    "Evaluate forecast accuracy using appropriate metrics (e.g., MAE, RMSE)."
+  ],
+  "resources": [
+    "Hyndman & Athanasopoulos online book on forecasting: Forecasting Book"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664baf4999135b56146e5e73"
+  },
+  "day": 14,
+  "title": "Dimensionality Reduction Methods",
+  "topics": [
+    {
+      "title": "Dimensionality Reduction Methods: Principal Component Analysis (PCA), t-Distributed Stochastic Neighbor Embedding (t-SNE).",
+      "content": "Dimensionality reduction methods such as Principal Component Analysis (PCA) and t-Distributed Stochastic Neighbor Embedding (t-SNE) are essential for simplifying high-dimensional datasets while preserving meaningful information. PCA identifies the principal components that capture the maximum variance in the data and projects the data onto a lower-dimensional space, facilitating visualization and analysis. On the other hand, t-SNE is particularly effective for visualizing high-dimensional data by preserving local similarities, effectively revealing clusters and patterns. Both techniques find applications in various domains, including image processing, natural language processing, and bioinformatics, aiding in exploratory data analysis, feature extraction, and visualization tasks."
+    }
+  ],
+  "reading": [
+    "\"Introduction to Machine Learning with Python\" by Andreas C. Müller and Sarah Guido (Chapter 3).",
+    "Online tutorials on dimensionality reduction techniques."
+  ],
+  "assignments": [
+    "Implement PCA and t-SNE algorithms for dimensionality reduction and visualize the reduced data.",
+    "Discuss the advantages and limitations of dimensionality reduction in data analysis."
+  ],
+  "resources": [
+    "Scikit-learn documentation on dimensionality reduction: Dimensionality Reduction"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664baf4f99135b56146e5e74"
+  },
+  "day": 15,
+  "title": "Text Mining and Sentiment Analysis",
+  "topics": [
+    {
+      "title": "Text Mining and Sentiment Analysis: Analyzing textual data for insights.",
+      "content": "Text mining and sentiment analysis involve extracting valuable insights from textual data. Text mining encompasses techniques such as natural language processing (NLP) and machine learning to analyze unstructured text data, extracting meaningful information such as topics, trends, and patterns. Sentiment analysis focuses specifically on determining the sentiment or opinion expressed in text, whether it's positive, negative, or neutral. By applying NLP algorithms and machine learning models, sentiment analysis can classify text data based on sentiment, enabling organizations to gauge public opinion, customer feedback, and brand perception from social media, reviews, and other textual sources. These techniques find applications in market research, customer service, reputation management, and more, providing actionable insights for decision-making and strategy development."
+    }
+  ],
+  "reading": [
+    "\"Natural Language Processing with Python\" by Steven Bird et al. (Chapters 1-4).",
+    "Online resources on text mining and sentiment analysis."
+  ],
+  "assignments": [
+    "Preprocess textual data (e.g., tokenization, stemming) and perform sentiment analysis on customer reviews or social media data.",
+    "Visualize sentiment scores over time and identify trends and patterns."
+  ],
+  "resources": [
+    "NLTK documentation for natural language processing: NLTK Documentation",
+    "TextBlob library for sentiment analysis: TextBlob Documentation"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664baf5599135b56146e5e75"
+  },
+  "day": 16,
+  "title": "Introduction to Data Wrangling",
+  "topics": [
+    {
+      "title": "Introduction to Data Wrangling: Data cleaning, transformation, and integration.",
+      "content": "Data wrangling involves the process of preparing raw data for analysis, encompassing data cleaning, transformation, and integration. Data cleaning focuses on identifying and rectifying errors, inconsistencies, and missing values in the dataset to ensure data integrity and accuracy. Transformation involves converting data into a suitable format, scaling features, and encoding categorical variables, making it compatible with analysis and modeling techniques. Integration merges data from different sources or formats into a unified dataset, facilitating comprehensive analysis and decision-making. Data wrangling is a critical step in the data analysis pipeline, enabling researchers and practitioners to derive meaningful insights and make informed decisions based on high-quality data."
+    }
+  ],
+  "reading": [
+    "\"Python for Data Analysis\" by Wes McKinney (Chapter 7).",
+    "Online tutorials on data wrangling techniques."
+  ],
+  "assignments": [
+    "Clean and preprocess a messy dataset provided by the instructor.",
+    "Transform and integrate multiple datasets for analysis."
+  ],
+  "resources": [
+    "Pandas documentation for data wrangling: Pandas Documentation"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664baf6099135b56146e5e76"
+  },
+  "day": 17,
+  "title": "Data Preprocessing Techniques",
+  "topics": [
+    {
+      "title": "Data Preprocessing Techniques: Missing data imputation, feature scaling, encoding categorical variables.",
+      "content": "Data preprocessing techniques are essential for preparing raw data for analysis, involving tasks such as missing data imputation, feature scaling, and encoding categorical variables. Missing data imputation involves filling in missing values in the dataset using methods such as mean imputation, median imputation, or advanced techniques like k-nearest neighbors (KNN) imputation. Feature scaling standardizes the range of features to a common scale, preventing features with larger scales from dominating the analysis, and includes methods like Min-Max scaling or standardization (Z-score normalization). Encoding categorical variables converts categorical data into numerical format suitable for machine learning algorithms, using techniques such as one-hot encoding or label encoding. These preprocessing techniques are essential for enhancing the quality and usability of data, enabling more accurate and reliable analysis and modeling results."
+    }
+  ],
+  "reading": [
+    "\"R for Data Science\" by Hadley Wickham and Garrett Grolemund (Chapter 12).",
+    "Online tutorials on data preprocessing techniques."
+  ],
+  "assignments": [
+    "Handle missing data using appropriate imputation methods (e.g., mean imputation, predictive imputation).",
+    "Perform feature scaling and encoding of categorical variables for machine learning tasks."
+  ],
+  "resources": [
+    "Scikit-learn documentation for data preprocessing: Scikit-learn Preprocessing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664baf6699135b56146e5e77"
+  },
+  "day": 18,
+  "title": "Handling Text and Time Series Data",
+  "topics": [
+    {
+      "title": "Handling Text and Time Series Data: Tokenization, stemming, handling time series data.",
+      "content": "Handling text data involves several preprocessing steps, including tokenization and stemming, while handling time series data requires specialized techniques. Tokenization involves breaking down text into individual words or tokens for analysis, enabling the extraction of meaningful information. Stemming reduces words to their root or base form to normalize variations, enhancing text analysis by treating related words as the same. Time series data handling involves organizing and analyzing sequential data points over time. This includes tasks such as trend analysis, seasonality detection, and forecasting using methods like moving averages, exponential smoothing, and ARIMA models. Proper handling of text and time series data is essential for extracting insights and making informed decisions in various domains such as natural language processing, finance, and predictive analytics."
+    }
+  ],
+  "reading": [
+    "\"Natural Language Processing in Action\" by Lane et al. (Chapter 4).",
+    "Online tutorials on text preprocessing and time series analysis."
+  ],
+  "assignments": [
+    "Tokenize and preprocess textual data for sentiment analysis or classification tasks.",
+    "Analyze and visualize time series data, identifying patterns and trends."
+  ],
+  "resources": [
+    "NLTK documentation for text preprocessing: NLTK Documentation",
+    "Pandas documentation for time series analysis: Pandas Time Series"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664baf6c99135b56146e5e78"
+  },
+  "day": 19,
+  "title": "Ensemble Learning Methods",
+  "topics": [
+    {
+      "title": "Ensemble Learning Methods: Bagging, boosting, random forests, gradient boosting.",
+      "content": "Ensemble learning methods, such as bagging, boosting, random forests, and gradient boosting, harness the power of multiple models to improve predictive performance. Bagging, short for bootstrap aggregating, trains multiple base models independently on bootstrapped samples of the data and aggregates their predictions to reduce variance and improve robustness. Boosting, on the other hand, trains models sequentially, with each subsequent model focusing on correcting the errors made by its predecessors, resulting in improved accuracy. Random forests combine the bagging technique with decision tree models, resulting in an ensemble of trees that collectively provide robust predictions while reducing overfitting. Gradient boosting builds an ensemble of weak learners, typically decision trees, by iteratively minimizing a loss function, with each subsequent model learning from the errors of the previous ones, resulting in highly accurate predictions. These ensemble methods are widely used in various machine learning tasks, including classification, regression, and anomaly detection, delivering superior performance compared to individual models."
+    }
+  ],
+  "reading": [
+    "\"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow\" by Aurélien Géron (Chapter 7).",
+    "Online resources on ensemble learning techniques."
+  ],
+  "assignments": [
+    "Implement an ensemble learning technique (e.g., random forests) on a dataset provided by the instructor.",
+    "Compare the performance of ensemble methods with individual models."
+  ],
+  "resources": [
+    "Scikit-learn documentation on ensemble methods: Scikit-learn Ensemble Methods"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664baf7199135b56146e5e79"
+  },
+  "day": 20,
+  "title": "Support Vector Machines (SVM)",
+  "topics": [
+    {
+      "title": "Support Vector Machines (SVM): Theory, kernel functions, applications.",
+      "content": "Support Vector Machines (SVM) are versatile supervised learning algorithms used for classification and regression tasks. The theory behind SVM involves finding the hyperplane that best separates data points of different classes in a high-dimensional space. This hyperplane is determined by maximizing the margin, which is the distance between the hyperplane and the nearest data points of each class, making SVM effective for binary classification tasks. Kernel functions play a crucial role in SVM by mapping the input data into a higher-dimensional space, where a linear decision boundary can effectively separate non-linearly separable data. Common kernel functions include linear, polynomial, radial basis function (RBF), and sigmoid kernels, each suitable for different types of data and tasks. SVMs find applications in various domains such as image classification, text classification, bioinformatics, and financial forecasting, owing to their versatility, robustness, and ability to handle high-dimensional data."
+    }
+  ],
+  "reading": [
+    "\"Learning from Data\" by Yaser S. Abu-Mostafa et al. (Chapter 7).",
+    "Online tutorials on SVM theory and applications."
+  ],
+  "assignments": [
+    "Train and evaluate an SVM classifier on a real-world dataset.",
+    "Experiment with different kernel functions and regularization parameters."
+  ],
+  "resources": [
+    "SVM tutorial from Stanford University: SVM Tutorial"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664bafdf99135b56146e5e7a"
+  },
+  "day": 21,
+  "title": "Neural Networks",
+  "topics": [
+    {
+      "title": "Neural Networks: Multi-layer perceptrons, activation functions, training algorithms.",
+      "content": "Neural Networks, a cornerstone of deep learning, consist of interconnected layers of artificial neurons, where each neuron processes input data and passes the result to the next layer. Multi-layer perceptrons (MLPs) are a common architecture, comprising input, hidden, and output layers, with each neuron in one layer connected to every neuron in the next layer. Activation functions, such as sigmoid, tanh, ReLU, and softmax, introduce non-linearity to the network, allowing it to learn complex patterns and make nonlinear transformations of the input data. Training algorithms, such as backpropagation and stochastic gradient descent (SGD), optimize the network's parameters by adjusting weights and biases iteratively, minimizing a predefined loss function. These techniques enable neural networks to learn from data, extract features, and make predictions across various domains, including image recognition, natural language processing, and autonomous vehicles."
+    }
+  ],
+  "reading": [
+    "\"Deep Learning\" by Ian Goodfellow et al. (Chapters 1-3).",
+    "Online tutorials on neural network fundamentals."
+  ],
+  "assignments": [
+    "Build and train a neural network model for a classification task",
+    "Experiment with different architectures, activation functions, and optimization algorithms."
+  ],
+  "resources": [
+    "TensorFlow documentation for neural networks: TensorFlow Neural Network Guide"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664bafe499135b56146e5e7b"
+  },
+  "day": 22,
+  "title": "Introduction to Big Data",
+  "topics": [
+    {
+      "title": "Introduction to Big Data: Characteristics, challenges, and opportunities.",
+      "content": "Introduction to Big Data encompasses understanding its three defining characteristics: volume, velocity, and variety. Volume refers to the vast amounts of data generated from various sources, including sensors, social media, and transaction records. Velocity relates to the speed at which data is generated, collected, and processed, requiring real-time or near-real-time analytics. Variety pertains to the diverse types and formats of data, including structured, semi-structured, and unstructured data, such as text, images, and videos. Alongside these characteristics, Big Data presents challenges such as data storage, processing, analysis, and privacy concerns. However, it also offers numerous opportunities, including data-driven decision-making, personalized recommendations, predictive analytics, and innovation across industries. Embracing Big Data technologies and analytics enables organizations to gain insights, drive efficiency, and create value from their data assets."
+    }
+  ],
+  "reading": [
+    "\"Big Data: A Revolution That Will Transform How We Live, Work, and Think\" by Viktor Mayer-Schönberger and Kenneth Cukier (Chapters 1-3).",
+    "Online resources on big data concepts and technologies."
+  ],
+  "assignments": [
+    "Discuss the characteristics of big data and its impact on various industries.",
+    "Explore real-world examples of big data applications and success stories."
+  ],
+  "resources": [
+    "Big Data tutorial from IBM: IBM Big Data Tutorial"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664bafeb99135b56146e5e7c"
+  },
+  "day": 23,
+  "title": "Hadoop Ecosystem",
+  "topics": [
+    {
+      "title": "Hadoop Ecosystem: HDFS, MapReduce, HBase, Hive, Pig.",
+      "content": "The Hadoop ecosystem comprises several open-source tools and frameworks designed to handle large-scale data processing and storage. Hadoop Distributed File System (HDFS) is a distributed file system that provides high-throughput access to data across clusters of commodity hardware. MapReduce is a programming model and processing engine for parallel processing of large datasets across distributed computing clusters. HBase is a NoSQL database built on top of HDFS, providing real-time read/write access to large datasets, suitable for random access to Big Data. Hive is a data warehouse infrastructure that facilitates querying and analysis of data stored in Hadoop using a SQL-like language called HiveQL. Pig is a high-level platform for creating and executing MapReduce programs, enabling developers to express data transformation tasks using a scripting language called Pig Latin. Together, these components of the Hadoop ecosystem enable organizations to store, process, and analyze massive volumes of data efficiently and cost-effectively."
+    }
+  ],
+  "reading": [
+    "\"Hadoop: The Definitive Guide\" by Tom White (Chapters 1-4).",
+    "Online tutorials on Hadoop ecosystem components."
+  ],
+  "assignments": [
+    "Set up a Hadoop cluster (using cloud services or local setup) and perform basic operations.",
+    "Write and execute MapReduce programs to process large datasets."
+  ],
+  "resources": [
+    "Cloudera documentation for Apache Hadoop: Cloudera Hadoop Documentation"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664baff199135b56146e5e7d"
+  },
+  "day": 24,
+  "title": "Spark Framework",
+  "topics": [
+    {
+      "title": "Spark Framework: RDDs, Spark SQL, Spark MLlib, Spark Streaming.",
+      "content": "The Spark framework is an open-source distributed computing system that provides high-level APIs for efficient data processing. Resilient Distributed Datasets (RDDs) are the fundamental data structure in Spark, representing distributed collections of objects across a cluster, resilient to failures. Spark SQL is a module for working with structured data in Spark, allowing users to execute SQL queries and integrate SQL with Spark's programming APIs. Spark MLlib is a scalable machine learning library built on top of Spark, providing a wide range of algorithms and tools for data mining and analysis tasks. Spark Streaming is an extension of the core Spark API that enables scalable, fault-tolerant stream processing of live data streams, allowing real-time analytics and processing of data from various sources. Together, these components of the Spark framework empower developers to build robust and scalable data processing pipelines for batch and streaming data analytics, machine learning, and more, on large-scale distributed computing clusters."
+    }
+  ],
+  "reading": [
+    "\"Learning Spark\" by Matei Zaharia et al. (Chapters 1-3).",
+    "Online tutorials on Apache Spark fundamentals."
+  ],
+  "assignments": [
+    "Install and configure Apache Spark on a local machine or cluster.",
+    "Develop Spark applications using RDDs and DataFrame APIs for data processing."
+  ],
+  "resources": [
+    "Databricks Apache Spark Guide: Databricks Apache Spark Guide"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664bb01299135b56146e5e7e"
+  },
+  "day": 25,
+  "title": "Importance of Data Visualization",
+  "topics": [
+    {
+      "title": "Importance of Data Visualization: Communicating insights effectively.",
+      "content": "Data visualization plays a crucial role in effectively communicating insights gleaned from data analysis. By presenting data visually through charts, graphs, and other graphical representations, complex datasets can be distilled into clear and understandable visual narratives. Visualizations allow for the identification of patterns, trends, and relationships that may not be immediately apparent from raw data alone. Furthermore, visualizations help to engage and captivate audiences, making it easier for stakeholders to grasp the significance of the insights and make informed decisions based on the data. Whether it's presenting findings to executives, sharing results with colleagues, or communicating with the public, data visualization enhances comprehension, facilitates knowledge sharing, and promotes data-driven decision-making across various domains and industries."
+    }
+  ],
+  "reading": [
+    "\"The Visual Display of Quantitative Information\" by Edward Tufte.",
+    "Online articles on data visualization best practices."
+  ],
+  "assignments": [
+    "Critically analyze and discuss examples of effective and ineffective data visualizations.",
+    "Identify key principles of effective visualization design."
+  ],
+  "resources": [
+    "Edward Tufte's website on data visualization: Tufte's Website"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664bb01999135b56146e5e7f"
+  },
+  "day": 26,
+  "title": "Principles of Effective Visualization",
+  "topics": [
+    {
+      "title": "Principles of Effective Visualization: Tufte's principles, Gestalt principles.",
+      "content": "Principles of effective visualization draw upon concepts from Tufte's principles and Gestalt psychology, emphasizing clarity, simplicity, and coherence in visual communication. Tufte's principles advocate for maximizing data-ink ratio, where ink used in the visualization should convey meaningful data rather than non-essential elements. Additionally, Tufte encourages the reduction of chartjunk, unnecessary decorations, and chart elements that distract from the data. Gestalt principles, on the other hand, focus on how humans perceive and organize visual information. These principles include proximity, similarity, continuity, closure, and figure-ground relationships, which guide the arrangement and presentation of visual elements to create meaningful and easily interpretable visualizations. By applying these principles, visualizations can effectively convey insights, facilitate understanding, and enhance the impact of data-driven storytelling."
+    }
+  ],
+  "reading": [
+    "\"Storytelling with Data\" by Cole Nussbaumer Knaflic.",
+    "Online resources on Gestalt principles and data storytelling."
+  ],
+  "assignments": [
+    "Design and create visualizations using appropriate chart types and design principles.",
+    "Critique existing visualizations based on Tufte's principles and Gestalt principles."
+  ],
+  "resources": [
+    "Storytelling with Data website: Storytelling with Data"
+  ]
+},
+{
+  "_id": {
+    "$oid": "664bb02099135b56146e5e80"
+  },
+  "day": 27,
+  "title": "Data Visualization Tools",
+  "topics": [
+    {
+      "title": "Data Visualization Tools: Matplotlib, Seaborn, ggplot2, Tableau, Power BI.",
+      "content": "Data visualization tools such as Matplotlib, Seaborn, ggplot2, Tableau, and Power BI offer diverse capabilities for creating compelling and insightful visualizations. Matplotlib and Seaborn are Python libraries known for their versatility and flexibility in generating static and interactive visualizations across a wide range of plot types. ggplot2, a package in R, follows a grammar of graphics approach, providing a concise and intuitive syntax for producing publication-quality visualizations. Tableau and Power BI are powerful commercial platforms that offer intuitive drag-and-drop interfaces for creating interactive dashboards and visualizations, enabling users to explore data and gain insights rapidly. Each tool has its strengths and caters to different user preferences, skill levels, and data analysis requirements, empowering users to effectively communicate data-driven insights in various contexts and domains."
+    }
+  ],
+  "reading": [
+    "Documentation and tutorials for selected data visualization tools.",
+    "Online courses on data visualization with specific tools."
+  ],
+  "assignments": [
+    "Explore and experiment with different data visualization tools, creating visualizations from sample datasets.",
+    "Present findings and insights using interactive dashboards created with Tableau or Power BI."
+  ],
+  "resources": [
+    "Matplotlib documentation: Matplotlib Documentation",
+    "Seaborn documentation: Seaborn Documentation",
+    "ggplot2 documentation: ggplot2 Documentation"
+  ]
+}]
