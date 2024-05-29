@@ -5,6 +5,7 @@ import axios from 'axios';
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 
 const dataCourse = () => {
+    const [loading, setLoading] = useState(true);
     const [modalOpen, setModalOpen] = useState(false);
     const toggleModal = () => {
         setModalOpen(!modalOpen);
@@ -27,15 +28,25 @@ const dataCourse = () => {
             const getData = await axios.get(`${BACKEND_URL}/api/data/${courseFormat}/${id}`);
             setCourseData(getData.data.courseData);
             setMaxLength(getData.data.maxLength);
+            setLoading(false);
         }
         handleData();
     }, [id, courseFormat]);
 
     if (isNaN(id) || id < 1 || id > maxLength) {
         return (
-            <div className="invalid">
-                <h2>Invalid {courseFormat} number</h2>
-            </div>
+            <>
+                {loading && (
+                    <div className="loading">
+                        <h2 className="loading-text">Loading...</h2>
+                    </div>
+                )}
+                {!loading && (
+                    <div className="invalid">
+                        <h2>Invalid {courseFormat} number</h2>
+                    </div>
+                )}
+            </>
         );
     }
 
